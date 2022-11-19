@@ -1,4 +1,11 @@
 <div data-hook="login" class="card mt-5">
+  <div class="card-header">
+    <div class="flex-fill spree-logo text-center mt-2">
+      <%= link_to spree.admin_path do %>
+        <%= spree_admin_svg_tag "admin-ui-logo.svg", size: '150px * 45px' %>
+      <% end %>
+    </div>
+  </div>
   <div class="card-body">
     <h5><%= Spree.t(:login) %></h5>
 
